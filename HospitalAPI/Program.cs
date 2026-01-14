@@ -3,6 +3,16 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 // Learn more about configuring OpenAPI at https://aka.ms/aspnet/openapi
 builder.Services.AddOpenApi();
+var builder = WebApplication.CreateBuilder(args);
+
+// Add services to the container
+builder.Services.AddControllers();
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
+
+// Configure DataApplicationDBContext with SQL 
+builder.Services.AddDbContext<DataApplicationDBContext>(options =>
+    options.UseSqlServer(builder.Configuration.GetConnectionString("HosyDBConnection")));
 
 var app = builder.Build();
 
