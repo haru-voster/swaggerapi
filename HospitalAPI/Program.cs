@@ -16,18 +16,21 @@ builder.Services.AddDbContext<DataApplicationDBContext>(options =>
 );
 
 var app = builder.Build();
-
-// Middleware
+// Configure the HTTP request pipeline
 if (app.Environment.IsDevelopment())
 {
     app.UseSwagger();
-    app.UseSwaggerUI();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "VisitAPI V1");
+        c.RoutePrefix = string.Empty; // Swagger at root
+    });
 }
 
-// Optional: comment this out if HTTPS is not configured
-// app.UseHttpsRedirection();
+app.UseHttpsRedirection();
 
-app.UseAuthorization();
+// Map controllers
+app.MapControllers();
 
 // Minimal API sample endpoint
 var summaries = new[]
