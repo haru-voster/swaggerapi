@@ -12,7 +12,7 @@ namespace HospitalAPI.Data
         public DbSet<LabTest> LabTests { get; set; } = null!;
 
         // ✅ ADD Result DbSet
-        public DbSet<Result> Results { get; set; } = null!;
+         public DbSet<Result> Results { get; set; } = null!;
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
