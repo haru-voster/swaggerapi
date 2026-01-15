@@ -22,7 +22,7 @@ if (app.Environment.IsDevelopment())
     app.UseSwagger();
     app.UseSwaggerUI(c =>
     {
-        c.SwaggerEndpoint("/swagger/v1/swagger.json", "VisitAPI V1");
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "HospitalAPI V1"); // Changed here
         c.RoutePrefix = string.Empty; // Swagger at root
     });
 }
