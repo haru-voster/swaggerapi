@@ -10,7 +10,10 @@
 1. .NET
 2. SSMS 
 3. SQL SERVER 2022
+<<<<<<< HEAD
 
 
 ## Testing environment
 * postman with swagger UI
+=======
+>>>>>>> 94ec38d2b8eba1f11ec9bb468df217b00af36835

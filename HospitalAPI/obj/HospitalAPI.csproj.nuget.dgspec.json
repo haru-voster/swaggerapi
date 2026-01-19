@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\VOSTER\\Desktop\\VOSTER\\SWAGGER\\swaggerapi\\HospitalAPI\\HospitalAPI.csproj": {}
+    "D:\\ff\\swaggerapi\\HospitalAPI\\HospitalAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\VOSTER\\Desktop\\VOSTER\\SWAGGER\\swaggerapi\\HospitalAPI\\HospitalAPI.csproj": {
+    "D:\\ff\\swaggerapi\\HospitalAPI\\HospitalAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\VOSTER\\Desktop\\VOSTER\\SWAGGER\\swaggerapi\\HospitalAPI\\HospitalAPI.csproj",
+        "projectUniqueName": "D:\\ff\\swaggerapi\\HospitalAPI\\HospitalAPI.csproj",
         "projectName": "HospitalAPI",
-        "projectPath": "C:\\Users\\VOSTER\\Desktop\\VOSTER\\SWAGGER\\swaggerapi\\HospitalAPI\\HospitalAPI.csproj",
+        "projectPath": "D:\\ff\\swaggerapi\\HospitalAPI\\HospitalAPI.csproj",
         "packagesPath": "C:\\Users\\VOSTER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\VOSTER\\Desktop\\VOSTER\\SWAGGER\\swaggerapi\\HospitalAPI\\obj\\",
+        "outputPath": "D:\\ff\\swaggerapi\\HospitalAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\VOSTER\\AppData\\Roaming\\NuGet\\NuGet.Config"
