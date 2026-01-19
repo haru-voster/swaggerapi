@@ -11,8 +11,6 @@
 2. SSMS 
 3. SQL SERVER 2022
 
-
-
 ## Testing environment
 * postman with swagger UI
-*
+
