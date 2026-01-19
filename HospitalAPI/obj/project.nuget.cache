@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "IXYdOkosJIE=",
+  "dgSpecHash": "kBp008b9znE=",
   "success": true,
-  "projectFilePath": "C:\\Users\\VOSTER\\Desktop\\VOSTER\\SWAGGER\\swaggerapi\\HospitalAPI\\HospitalAPI.csproj",
+  "projectFilePath": "D:\\ff\\swaggerapi\\HospitalAPI\\HospitalAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\VOSTER\\.nuget\\packages\\azure.core\\1.47.1\\azure.core.1.47.1.nupkg.sha512",
     "C:\\Users\\VOSTER\\.nuget\\packages\\azure.identity\\1.14.2\\azure.identity.1.14.2.nupkg.sha512",
